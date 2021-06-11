@@ -78,7 +78,12 @@ namespace Survey
 
         private void Survey_FormClosed(object sender, FormClosedEventArgs e)
         {
-         
+    
+        }
+
+        private void Infoguna2Button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Example for designed to transfer information between forms. ");
         }
     }
 }
